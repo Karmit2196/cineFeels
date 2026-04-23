@@ -1,0 +1,212 @@
+{
+  "feel-good": {
+    "name": "Feel Good",
+    "keywords": ["feel good", "happy", "cheerful", "uplifting", "bright", "joyful", "positive", "fun", "light", "sunshine", "smile", "joy"],
+    "movies": [
+      { "tmdb_id": 354912, "title": "Coco", "year": 2017, "vibe_reason": "A warm, colorful journey about family and following your heart" },
+      { "tmdb_id": 615643, "title": "The Secret Life of Walter Mitty", "year": 2013, "vibe_reason": "Dreamy escapism that leaves you feeling inspired and alive" },
+      { "tmdb_id": 862, "title": "Toy Story", "year": 1995, "vibe_reason": "Pure joy in every frame — friendship and adventure at its best" },
+      { "tmdb_id": 10681, "title": "WALL·E", "year": 2008, "vibe_reason": "Love, hope, and heart in a beautiful, wordless story" },
+      { "tmdb_id": 11970, "title": "Julie & Julia", "year": 2009, "vibe_reason": "Cooking, passion, and two women finding their joy" },
+      { "tmdb_id": 9806, "title": "The Incredibles", "year": 2004, "vibe_reason": "Superhero family fun that never gets old" },
+      { "tmdb_id": 812, "title": "Aladdin", "year": 1992, "vibe_reason": "A whole new world of magic and feel-good charm" },
+      { "tmdb_id": 120467, "title": "The Grand Budapest Hotel", "year": 2014, "vibe_reason": "Witty, whimsical, and delightful from first frame to last" }
+    ]
+  },
+  "monsoon-mood": {
+    "name": "Monsoon Mood",
+    "keywords": ["monsoon", "rainy", "rain", "rainy day", "petrichor", "cozy rain", "chai weather", "stormy", "grey sky", "drizzle", "overcast", "wet"],
+    "movies": [
+      { "tmdb_id": 278, "title": "The Shawshank Redemption", "year": 1994, "vibe_reason": "Perfect for a grey day — hope and perseverance in every drop" },
+      { "tmdb_id": 539, "title": "Psycho", "year": 1960, "vibe_reason": "Stormy weather and darker moods — the ultimate rainy night classic" },
+      { "tmdb_id": 4935, "title": "Howl's Moving Castle", "year": 2004, "vibe_reason": "Magical and melancholy — made for watching while rain hits the window" },
+      { "tmdb_id": 372058, "title": "Your Name.", "year": 2016, "vibe_reason": "Beautifully bittersweet, like the smell of rain on dry earth" },
+      { "tmdb_id": 11324, "title": "Shutter Island", "year": 2010, "vibe_reason": "Moody and atmospheric — perfectly matched to grey skies" },
+      { "tmdb_id": 77338, "title": "The Intouchables", "year": 2011, "vibe_reason": "Warm and human, like a good conversation on a rainy afternoon" },
+      { "tmdb_id": 227306, "title": "Unbroken", "year": 2014, "vibe_reason": "Endurance and spirit for when the weather keeps you indoors" },
+      { "tmdb_id": 197, "title": "Braveheart", "year": 1995, "vibe_reason": "Sweeping and dramatic — matches the energy of a stormy evening" }
+    ]
+  },
+  "cozy-nostalgic": {
+    "name": "Cozy & Nostalgic",
+    "keywords": ["cozy", "nostalgic", "nostalgia", "warm", "blanket", "throwback", "childhood", "comfort", "classic", "home", "memory", "golden"],
+    "movies": [
+      { "tmdb_id": 210577, "title": "Stand By Me", "year": 1986, "vibe_reason": "Golden childhood summers and friendships that last forever" },
+      { "tmdb_id": 8587, "title": "The Lion King", "year": 1994, "vibe_reason": "Pure childhood magic that hits differently as an adult" },
+      { "tmdb_id": 105, "title": "Back to the Future", "year": 1985, "vibe_reason": "Time-travel nostalgia wrapped in the best 80s energy" },
+      { "tmdb_id": 11, "title": "Star Wars: A New Hope", "year": 1977, "vibe_reason": "The movie that made everyone fall in love with adventure" },
+      { "tmdb_id": 771, "title": "Home Alone", "year": 1990, "vibe_reason": "Cozy chaos — the definition of a comfort rewatch" },
+      { "tmdb_id": 585, "title": "Monsters, Inc.", "year": 2001, "vibe_reason": "Warm, funny, and full of heart — childhood in a film" },
+      { "tmdb_id": 1585, "title": "Ratatouille", "year": 2007, "vibe_reason": "Cozy Parisian kitchens and the joy of making something beautiful" },
+      { "tmdb_id": 38, "title": "Eternal Sunshine of the Spotless Mind", "year": 2004, "vibe_reason": "Bittersweet memories and the warmth of what we choose to keep" }
+    ]
+  },
+  "adventurous": {
+    "name": "Adventurous",
+    "keywords": ["adventurous", "adventure", "epic", "journey", "quest", "explore", "discover", "travel", "wild", "bold", "daring", "action"],
+    "movies": [
+      { "tmdb_id": 120, "title": "The Lord of the Rings: The Fellowship of the Ring", "year": 2001, "vibe_reason": "The greatest adventure ever put to film — pure epic scale" },
+      { "tmdb_id": 58574, "title": "The Secret Life of Pets", "year": 2016, "vibe_reason": "Fun escapade energy for when you want adventure without stakes" },
+      { "tmdb_id": 1726, "title": "Iron Man", "year": 2008, "vibe_reason": "Thrilling and inventive — the kind of adventure that gets you pumped" },
+      { "tmdb_id": 260513, "title": "Incredibles 2", "year": 2018, "vibe_reason": "Superhero fun with heart and kinetic adventure" },
+      { "tmdb_id": 157336, "title": "Interstellar", "year": 2014, "vibe_reason": "The ultimate journey — love and space and everything in between" },
+      { "tmdb_id": 1771, "title": "Captain America: The First Avenger", "year": 2011, "vibe_reason": "Bold, heroic adventure with genuine old-school heart" },
+      { "tmdb_id": 9502, "title": "Into the Wild", "year": 2007, "vibe_reason": "Breathtaking and real — the adventure of living on your own terms" },
+      { "tmdb_id": 274, "title": "The Silence of the Lambs", "year": 1991, "vibe_reason": "A psychological thrill-ride from start to finish" }
+    ]
+  },
+  "need-a-good-cry": {
+    "name": "Need a Good Cry",
+    "keywords": ["cry", "crying", "emotional", "sad", "tears", "weep", "heartbreak", "moving", "devastating", "bittersweet", "grief", "loss"],
+    "movies": [
+      { "tmdb_id": 10193, "title": "Toy Story 3", "year": 2010, "vibe_reason": "Growing up hurts, and this film captures that better than any other" },
+      { "tmdb_id": 324786, "title": "Hacksaw Ridge", "year": 2016, "vibe_reason": "Gut-wrenching and beautiful — sacrifice has never felt so real" },
+      { "tmdb_id": 399055, "title": "The Shape of Water", "year": 2017, "vibe_reason": "Achingly tender love story that will leave you beautifully wrecked" },
+      { "tmdb_id": 596060, "title": "The Lighthouse", "year": 2019, "vibe_reason": "Harrowing and visceral — a cry that comes from somewhere deep" },
+      { "tmdb_id": 15121, "title": "Up", "year": 2009, "vibe_reason": "That opening sequence alone will break you, and it's worth every tear" },
+      { "tmdb_id": 600354, "title": "The Father", "year": 2020, "vibe_reason": "Tender and heartbreaking — dementia seen from the inside out" },
+      { "tmdb_id": 567609, "title": "A Beautiful Day in the Neighborhood", "year": 2019, "vibe_reason": "Quietly moving — about kindness and the armor we wear" },
+      { "tmdb_id": 101, "title": "Requiem for a Dream", "year": 2000, "vibe_reason": "A cathartic emotional shockwave — cry it all out" }
+    ]
+  },
+  "mind-bending": {
+    "name": "Mind-Bending",
+    "keywords": ["mind-bending", "mind blowing", "mindfuck", "twist", "complex", "philosophical", "trippy", "surreal", "psychological", "weird science", "reality", "cerebral"],
+    "movies": [
+      { "tmdb_id": 27205, "title": "Inception", "year": 2010, "vibe_reason": "Dreams within dreams — your brain won't know what hit it" },
+      { "tmdb_id": 680, "title": "Pulp Fiction", "year": 1994, "vibe_reason": "Non-linear storytelling that rewards every rewatch" },
+      { "tmdb_id": 264644, "title": "Room", "year": 2015, "vibe_reason": "A perspective-shifting story that reframes how you see the world" },
+      { "tmdb_id": 11324, "title": "Shutter Island", "year": 2010, "vibe_reason": "A reality-questioning thriller that keeps you guessing to the end" },
+      { "tmdb_id": 37799, "title": "Black Swan", "year": 2010, "vibe_reason": "Art, obsession, and identity blur in this hypnotic psychological spiral" },
+      { "tmdb_id": 438631, "title": "Dune", "year": 2021, "vibe_reason": "Immersive, dense, and operatic — a universe that rewires your imagination" },
+      { "tmdb_id": 671, "title": "Harry Potter and the Philosopher's Stone", "year": 2001, "vibe_reason": "A world that expands your sense of what's possible" },
+      { "tmdb_id": 346364, "title": "It", "year": 2017, "vibe_reason": "Fear and childhood trauma distorted into something surreal and striking" }
+    ]
+  },
+  "drained-comfort": {
+    "name": "Drained but Want Comfort",
+    "keywords": ["drained", "exhausted", "tired", "comfort", "easy watch", "low energy", "gentle", "soothing", "familiar", "low stakes", "simple", "relaxing"],
+    "movies": [
+      { "tmdb_id": 12, "title": "Finding Nemo", "year": 2003, "vibe_reason": "Gentle adventure and warm heart — zero effort to love" },
+      { "tmdb_id": 585, "title": "Monsters, Inc.", "year": 2001, "vibe_reason": "Easy, funny, and genuinely sweet — perfect for an empty-tank evening" },
+      { "tmdb_id": 10020, "title": "The Princess Bride", "year": 1987, "vibe_reason": "As you wish — timeless comfort in story form" },
+      { "tmdb_id": 1885, "title": "Lilo & Stitch", "year": 2002, "vibe_reason": "Family is messy and weird and wonderful — cozy from start to finish" },
+      { "tmdb_id": 9737, "title": "Paddington 2", "year": 2017, "vibe_reason": "The kindest movie ever made — an instant mood-lift" },
+      { "tmdb_id": 78, "title": "Kiki's Delivery Service", "year": 1989, "vibe_reason": "Soft, beautiful, and unhurried — Miyazaki comfort at its peak" },
+      { "tmdb_id": 862, "title": "Toy Story", "year": 1995, "vibe_reason": "A beloved classic that asks nothing but gives everything" },
+      { "tmdb_id": 2062, "title": "Ratatouille", "year": 2007, "vibe_reason": "Food, Paris, and the joy of making something — deeply soothing" }
+    ]
+  },
+  "lazy-sunday": {
+    "name": "Lazy Sunday",
+    "keywords": ["lazy", "sunday", "weekend", "chill", "mellow", "slow", "do nothing", "afternoon", "lounge", "unwind", "slow burn", "hang"],
+    "movies": [
+      { "tmdb_id": 862, "title": "Toy Story", "year": 1995, "vibe_reason": "Sunday classic energy — comforting, familiar, never gets old" },
+      { "tmdb_id": 120467, "title": "The Grand Budapest Hotel", "year": 2014, "vibe_reason": "Delightful and unhurried — a perfect afternoon film" },
+      { "tmdb_id": 11970, "title": "Julie & Julia", "year": 2009, "vibe_reason": "Leisurely paced and full of food and warmth" },
+      { "tmdb_id": 5765, "title": "Pride & Prejudice", "year": 2005, "vibe_reason": "Gentle, beautiful, and completely absorbing on a slow day" },
+      { "tmdb_id": 335984, "title": "Blade Runner 2049", "year": 2017, "vibe_reason": "Slow-burn visually stunning — a film to get lost in" },
+      { "tmdb_id": 399055, "title": "The Shape of Water", "year": 2017, "vibe_reason": "Quiet and atmospheric — like a Sunday afternoon in a fish tank" },
+      { "tmdb_id": 510, "title": "One Flew Over the Cuckoo's Nest", "year": 1975, "vibe_reason": "Deeply human and slow-burning — Sunday viewing for the mind" },
+      { "tmdb_id": 489, "title": "Good Will Hunting", "year": 1997, "vibe_reason": "Warm, thoughtful, and unhurried — perfect for a slow day" }
+    ]
+  },
+  "dark-intense": {
+    "name": "Dark & Intense",
+    "keywords": ["dark", "intense", "gritty", "heavy", "disturbing", "dark theme", "brutal", "noir", "serious", "bleak", "tense", "unsettling"],
+    "movies": [
+      { "tmdb_id": 155, "title": "The Dark Knight", "year": 2008, "vibe_reason": "Brilliant, brooding, and relentlessly intense" },
+      { "tmdb_id": 769, "title": "Goodfellas", "year": 1990, "vibe_reason": "Kinetic, dark, and alive — crime at its most electric" },
+      { "tmdb_id": 101, "title": "Requiem for a Dream", "year": 2000, "vibe_reason": "Harrowing and unforgettable — not for the faint of heart" },
+      { "tmdb_id": 680, "title": "Pulp Fiction", "year": 1994, "vibe_reason": "Cool, dark, and endlessly re-watchable" },
+      { "tmdb_id": 37799, "title": "Black Swan", "year": 2010, "vibe_reason": "Psychological darkness spiraling into something mesmerizing" },
+      { "tmdb_id": 264644, "title": "Room", "year": 2015, "vibe_reason": "Claustrophobic and fierce — a raw gut-punch of a film" },
+      { "tmdb_id": 274, "title": "The Silence of the Lambs", "year": 1991, "vibe_reason": "Chilling, masterful, and utterly compelling" },
+      { "tmdb_id": 539, "title": "Psycho", "year": 1960, "vibe_reason": "The original dark masterpiece — still deeply unsettling" }
+    ]
+  },
+  "feel-like-a-kid": {
+    "name": "Feel Like a Kid Again",
+    "keywords": ["kid", "children", "childhood", "young", "playful", "animated", "cartoon", "imagination", "wonder", "magical", "fairy tale", "innocent"],
+    "movies": [
+      { "tmdb_id": 8587, "title": "The Lion King", "year": 1994, "vibe_reason": "Circle of life — it hits different when you watch it grown up" },
+      { "tmdb_id": 812, "title": "Aladdin", "year": 1992, "vibe_reason": "Pure Disney magic that never fades" },
+      { "tmdb_id": 1885, "title": "Lilo & Stitch", "year": 2002, "vibe_reason": "Ohana means family — and this film is a warm hug" },
+      { "tmdb_id": 671, "title": "Harry Potter and the Philosopher's Stone", "year": 2001, "vibe_reason": "The letter still hasn't arrived, but this film is the next best thing" },
+      { "tmdb_id": 585, "title": "Monsters, Inc.", "year": 2001, "vibe_reason": "Laughter is more powerful than screams — and this film proves it" },
+      { "tmdb_id": 862, "title": "Toy Story", "year": 1995, "vibe_reason": "Pure unbridled childhood joy in every frame" },
+      { "tmdb_id": 10681, "title": "WALL·E", "year": 2008, "vibe_reason": "Wide-eyed wonder about love and what matters most" },
+      { "tmdb_id": 129, "title": "Spirited Away", "year": 2001, "vibe_reason": "A dream you'll want to stay inside forever" }
+    ]
+  },
+  "heartwarming": {
+    "name": "Heartwarming",
+    "keywords": ["heartwarming", "warm", "touching", "sweet", "kind", "wholesome", "uplifting", "feel-good", "sentimental", "love", "caring", "gentle"],
+    "movies": [
+      { "tmdb_id": 77338, "title": "The Intouchables", "year": 2011, "vibe_reason": "An unlikely friendship that will fill your heart right up" },
+      { "tmdb_id": 567609, "title": "A Beautiful Day in the Neighborhood", "year": 2019, "vibe_reason": "Fred Rogers reminds you that kindness is never weakness" },
+      { "tmdb_id": 9737, "title": "Paddington 2", "year": 2017, "vibe_reason": "The most kind-hearted film ever made — period" },
+      { "tmdb_id": 354912, "title": "Coco", "year": 2017, "vibe_reason": "Family, memory, and music woven into something beautiful" },
+      { "tmdb_id": 489, "title": "Good Will Hunting", "year": 1997, "vibe_reason": "Deeply human — about learning to let people in" },
+      { "tmdb_id": 15121, "title": "Up", "year": 2009, "vibe_reason": "Love story, adventure, and hope all in one perfect film" },
+      { "tmdb_id": 10020, "title": "The Princess Bride", "year": 1987, "vibe_reason": "True love and adventure, delightfully told" },
+      { "tmdb_id": 862, "title": "Toy Story", "year": 1995, "vibe_reason": "Loyalty, friendship, and growing up — timeless warmth" }
+    ]
+  },
+  "late-night-thriller": {
+    "name": "Late Night Thriller",
+    "keywords": ["thriller", "late night", "suspense", "tension", "edge of seat", "gripping", "can't look away", "nerve-wracking", "mystery", "whodunit", "paranoid", "twisty"],
+    "movies": [
+      { "tmdb_id": 274, "title": "The Silence of the Lambs", "year": 1991, "vibe_reason": "A masterclass in suspense — you'll feel it in your bones" },
+      { "tmdb_id": 11324, "title": "Shutter Island", "year": 2010, "vibe_reason": "A paranoid spiral with a twist you won't see coming" },
+      { "tmdb_id": 539, "title": "Psycho", "year": 1960, "vibe_reason": "The original late-night thriller — still terrifying after 60 years" },
+      { "tmdb_id": 37799, "title": "Black Swan", "year": 2010, "vibe_reason": "Psychological dread that builds to a shattering climax" },
+      { "tmdb_id": 597208, "title": "Knives Out", "year": 2019, "vibe_reason": "A twisty, brilliant whodunit that keeps you guessing" },
+      { "tmdb_id": 680, "title": "Pulp Fiction", "year": 1994, "vibe_reason": "Tense, sharp, and unpredictable — perfect late-night viewing" },
+      { "tmdb_id": 155, "title": "The Dark Knight", "year": 2008, "vibe_reason": "Intense and relentless — Joker will haunt you" },
+      { "tmdb_id": 346364, "title": "It", "year": 2017, "vibe_reason": "Creepy, suspenseful, and impossible to look away from" }
+    ]
+  },
+  "romantic-not-cheesy": {
+    "name": "Romantic but Not Cheesy",
+    "keywords": ["romantic", "romance", "love story", "love", "date night", "couple", "not cheesy", "beautiful", "tender", "chemistry", "attraction", "longing"],
+    "movies": [
+      { "tmdb_id": 5765, "title": "Pride & Prejudice", "year": 2005, "vibe_reason": "Slow-burn perfection — Darcy and Lizzie is the gold standard" },
+      { "tmdb_id": 38, "title": "Eternal Sunshine of the Spotless Mind", "year": 2004, "vibe_reason": "Love that's messy and real and worth every complicated feeling" },
+      { "tmdb_id": 399055, "title": "The Shape of Water", "year": 2017, "vibe_reason": "Strange and tender — a love story unlike any other" },
+      { "tmdb_id": 372058, "title": "Your Name.", "year": 2016, "vibe_reason": "Achingly romantic without a single cliché — Japanese cinema at its peak" },
+      { "tmdb_id": 77338, "title": "The Intouchables", "year": 2011, "vibe_reason": "Not a romance per se, but the warmth of genuine connection" },
+      { "tmdb_id": 615643, "title": "The Secret Life of Walter Mitty", "year": 2013, "vibe_reason": "Romantic in the best way — about becoming someone worth loving" },
+      { "tmdb_id": 489, "title": "Good Will Hunting", "year": 1997, "vibe_reason": "Quiet and real — love as the force that breaks your walls down" },
+      { "tmdb_id": 11970, "title": "Julie & Julia", "year": 2009, "vibe_reason": "Two love stories about passion, food, and finding your person" }
+    ]
+  },
+  "inspirational": {
+    "name": "Inspirational",
+    "keywords": ["inspirational", "inspire", "motivated", "motivation", "empowering", "uplifting", "achiever", "overcome", "triumph", "powerful", "goal", "success"],
+    "movies": [
+      { "tmdb_id": 324786, "title": "Hacksaw Ridge", "year": 2016, "vibe_reason": "Unshakeable conviction — proof that one person can make a difference" },
+      { "tmdb_id": 278, "title": "The Shawshank Redemption", "year": 1994, "vibe_reason": "Hope as an act of defiance — the most inspiring prison story ever told" },
+      { "tmdb_id": 489, "title": "Good Will Hunting", "year": 1997, "vibe_reason": "Wasted potential found and reclaimed — it's never too late" },
+      { "tmdb_id": 9502, "title": "Into the Wild", "year": 2007, "vibe_reason": "The courage to live life entirely on your own terms" },
+      { "tmdb_id": 615643, "title": "The Secret Life of Walter Mitty", "year": 2013, "vibe_reason": "A quiet man who chooses to actually live — uplifting and gorgeous" },
+      { "tmdb_id": 157336, "title": "Interstellar", "year": 2014, "vibe_reason": "Love and science as the forces that push humanity forward" },
+      { "tmdb_id": 77338, "title": "The Intouchables", "year": 2011, "vibe_reason": "The best of humanity — empathy, humor, and real connection" },
+      { "tmdb_id": 600354, "title": "The Father", "year": 2020, "vibe_reason": "A reminder that love and care are the most important things we do" }
+    ]
+  },
+  "weird-quirky": {
+    "name": "Weird & Quirky",
+    "keywords": ["weird", "quirky", "strange", "unusual", "offbeat", "surreal", "absurd", "indie", "unconventional", "odd", "bizarre", "cult"],
+    "movies": [
+      { "tmdb_id": 120467, "title": "The Grand Budapest Hotel", "year": 2014, "vibe_reason": "Wes Anderson's perfectly symmetrical weirdness at its best" },
+      { "tmdb_id": 596060, "title": "The Lighthouse", "year": 2019, "vibe_reason": "Two men, one lighthouse, total psychological unraveling" },
+      { "tmdb_id": 680, "title": "Pulp Fiction", "year": 1994, "vibe_reason": "Non-linear, violent, funny, and entirely its own thing" },
+      { "tmdb_id": 399055, "title": "The Shape of Water", "year": 2017, "vibe_reason": "A woman falls in love with an amphibian — and it's perfect" },
+      { "tmdb_id": 38, "title": "Eternal Sunshine of the Spotless Mind", "year": 2004, "vibe_reason": "Heartbreak as a surreal, dreamlike experience" },
+      { "tmdb_id": 37799, "title": "Black Swan", "year": 2010, "vibe_reason": "Perfection and madness blur into something completely unhinged" },
+      { "tmdb_id": 597208, "title": "Knives Out", "year": 2019, "vibe_reason": "A genre-subverting mystery that plays by its own rules" },
+      { "tmdb_id": 129, "title": "Spirited Away", "year": 2001, "vibe_reason": "Utterly strange, utterly beautiful — a dream logic masterpiece" }
+    ]
+  }
+}

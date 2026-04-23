@@ -4,8 +4,10 @@ import Footer from './components/Footer';
 import VibeInput from './components/VibeInput';
 import MovieResults from './components/MovieResults';
 import { matchVibe, shuffleMovies } from './utils/vibeMatch';
-import { enrichMovies } from './utils/tmdb';
+import { enrichMovies, discoverMovies, addProviders } from './utils/tmdb';
 import vibesData from './data/vibes.json';
+
+const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 
 export default function App() {
   const [view, setView] = useState('home');
@@ -17,16 +19,38 @@ export default function App() {
     if (!match) return;
 
     setIsLoading(true);
-    const pickedMovies = shuffleMovies(match.movies, 3, []);
-    const enriched = await enrichMovies(pickedMovies);
+
+    let moviePool, currentMovies, discoverPage = 1, usingDiscover = false;
+
+    if (API_KEY && match.discoverParams) {
+      discoverPage = Math.floor(Math.random() * 3) + 1;
+      const pool = await discoverMovies(match.discoverParams, discoverPage);
+      if (pool.length >= 3) {
+        usingDiscover = true;
+        const picked = shuffleMovies(pool, 3, []);
+        const withTagline = picked.map(m => ({ ...m, vibe_reason: match.tagline }));
+        currentMovies = await addProviders(withTagline);
+        moviePool = pool.map(m => ({ ...m, vibe_reason: match.tagline }));
+      }
+    }
+
+    if (!usingDiscover) {
+      const picked = shuffleMovies(match.movies, 3, []);
+      currentMovies = await enrichMovies(picked);
+      moviePool = match.movies;
+    }
 
     setVibeResult({
       vibeKey: match.vibeKey,
       vibeName: match.vibeName,
-      allMovies: match.movies,
-      currentMovies: enriched,
+      discoverParams: match.discoverParams,
+      tagline: match.tagline,
+      moviePool,
+      currentMovies,
       matchMessage: match.matchMessage,
-      usedIds: pickedMovies.map(m => m.tmdb_id),
+      usedIds: currentMovies.map(m => m.tmdb_id),
+      discoverPage,
+      usingDiscover,
     });
     setIsLoading(false);
     setView('results');
@@ -35,13 +59,39 @@ export default function App() {
   async function handleShuffle() {
     if (!vibeResult) return;
     setIsLoading(true);
-    const next = shuffleMovies(vibeResult.allMovies, 3, vibeResult.usedIds);
 
+    const remaining = vibeResult.moviePool.filter(
+      m => !vibeResult.usedIds.includes(m.tmdb_id)
+    );
+
+    if (vibeResult.usingDiscover && remaining.length < 3) {
+      const nextPage = vibeResult.discoverPage + 1;
+      const newPool = await discoverMovies(vibeResult.discoverParams, nextPage);
+      if (newPool.length >= 3) {
+        const taggedPool = newPool.map(m => ({ ...m, vibe_reason: vibeResult.tagline }));
+        const picked = shuffleMovies(taggedPool, 3, []);
+        const withProviders = await addProviders(picked);
+        setVibeResult(prev => ({
+          ...prev,
+          moviePool: taggedPool,
+          currentMovies: withProviders,
+          usedIds: picked.map(m => m.tmdb_id),
+          discoverPage: nextPage,
+        }));
+        setIsLoading(false);
+        return;
+      }
+    }
+
+    const next = shuffleMovies(vibeResult.moviePool, 3, vibeResult.usedIds);
     const excludeIds = next.length < 3
       ? []
       : vibeResult.usedIds.concat(next.map(m => m.tmdb_id));
 
-    const enriched = await enrichMovies(next);
+    const enriched = vibeResult.usingDiscover
+      ? await addProviders(next)
+      : await enrichMovies(next);
+
     setVibeResult(prev => ({
       ...prev,
       currentMovies: enriched,

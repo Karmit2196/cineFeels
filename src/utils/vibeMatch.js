@@ -48,6 +48,8 @@ export function matchVibe(input, vibesData) {
       vibeKey: bestKey,
       vibeName: vibe.name,
       movies: vibe.movies,
+      discoverParams: vibe.discover_params || null,
+      tagline: vibe.tagline || null,
       isExact: bestScore >= 5,
       matchMessage: bestScore < 5 ? `We interpreted your vibe as "${vibe.name}" — here's what we found.` : null,
     };
@@ -72,6 +74,8 @@ export function matchVibe(input, vibesData) {
     vibeKey: closestKey,
     vibeName: fallbackVibe.name,
     movies: fallbackVibe.movies,
+    discoverParams: fallbackVibe.discover_params || null,
+    tagline: fallbackVibe.tagline || null,
     isExact: false,
     matchMessage: `We interpreted your vibe as "${fallbackVibe.name}" — here's what we found.`,
   };

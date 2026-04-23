@@ -57,3 +57,33 @@ export async function enrichMovies(movies) {
     })
   );
 }
+
+export async function discoverMovies(discoverParams, page = 1) {
+  if (!API_KEY) return [];
+  const params = new URLSearchParams({
+    api_key: API_KEY,
+    language: 'en-US',
+    include_adult: 'false',
+    page: String(page),
+    ...discoverParams,
+  });
+  const data = await safeFetch(`${BASE_URL}/discover/movie?${params}`);
+  if (!data?.results?.length) return [];
+  return data.results.map(m => ({
+    tmdb_id: m.id,
+    title: m.title,
+    year: m.release_date ? m.release_date.split('-')[0] : '',
+    poster: getPosterUrl(m.poster_path),
+    rating: m.vote_average ? Math.round(m.vote_average * 10) / 10 : null,
+    overview: m.overview || null,
+  }));
+}
+
+export async function addProviders(movies) {
+  return Promise.all(
+    movies.map(async (movie) => ({
+      ...movie,
+      providers: await fetchWatchProviders(movie.tmdb_id),
+    }))
+  );
+}

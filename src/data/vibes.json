@@ -1,7 +1,14 @@
 {
   "feel-good": {
     "name": "Feel Good",
+    "tagline": "Pure joy — exactly what the doctor ordered",
     "keywords": ["feel good", "happy", "cheerful", "uplifting", "bright", "joyful", "positive", "fun", "light", "sunshine", "smile", "joy"],
+    "discover_params": {
+      "with_genres": "35|10751|10749",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.5,
+      "vote_count.gte": 300
+    },
     "movies": [
       { "tmdb_id": 354912, "title": "Coco", "year": 2017, "vibe_reason": "A warm, colorful journey about family and following your heart" },
       { "tmdb_id": 615643, "title": "The Secret Life of Walter Mitty", "year": 2013, "vibe_reason": "Dreamy escapism that leaves you feeling inspired and alive" },
@@ -15,7 +22,14 @@
   },
   "monsoon-mood": {
     "name": "Monsoon Mood",
+    "tagline": "Made for grey skies and a warm cup in hand",
     "keywords": ["monsoon", "rainy", "rain", "rainy day", "petrichor", "cozy rain", "chai weather", "stormy", "grey sky", "drizzle", "overcast", "wet"],
+    "discover_params": {
+      "with_genres": "18|9648|53",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.5,
+      "vote_count.gte": 300
+    },
     "movies": [
       { "tmdb_id": 278, "title": "The Shawshank Redemption", "year": 1994, "vibe_reason": "Perfect for a grey day — hope and perseverance in every drop" },
       { "tmdb_id": 539, "title": "Psycho", "year": 1960, "vibe_reason": "Stormy weather and darker moods — the ultimate rainy night classic" },
@@ -29,7 +43,14 @@
   },
   "cozy-nostalgic": {
     "name": "Cozy & Nostalgic",
+    "tagline": "Warm, familiar, and full of golden memories",
     "keywords": ["cozy", "nostalgic", "nostalgia", "warm", "blanket", "throwback", "childhood", "comfort", "classic", "home", "memory", "golden"],
+    "discover_params": {
+      "with_genres": "16|10751|35",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.5,
+      "vote_count.gte": 300
+    },
     "movies": [
       { "tmdb_id": 210577, "title": "Stand By Me", "year": 1986, "vibe_reason": "Golden childhood summers and friendships that last forever" },
       { "tmdb_id": 8587, "title": "The Lion King", "year": 1994, "vibe_reason": "Pure childhood magic that hits differently as an adult" },
@@ -43,7 +64,14 @@
   },
   "adventurous": {
     "name": "Adventurous",
+    "tagline": "Buckle up — this one takes you somewhere bold",
     "keywords": ["adventurous", "adventure", "epic", "journey", "quest", "explore", "discover", "travel", "wild", "bold", "daring", "action"],
+    "discover_params": {
+      "with_genres": "12|28",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.0,
+      "vote_count.gte": 500
+    },
     "movies": [
       { "tmdb_id": 120, "title": "The Lord of the Rings: The Fellowship of the Ring", "year": 2001, "vibe_reason": "The greatest adventure ever put to film — pure epic scale" },
       { "tmdb_id": 58574, "title": "The Secret Life of Pets", "year": 2016, "vibe_reason": "Fun escapade energy for when you want adventure without stakes" },
@@ -57,7 +85,14 @@
   },
   "need-a-good-cry": {
     "name": "Need a Good Cry",
+    "tagline": "Let it all out — you'll feel better after",
     "keywords": ["cry", "crying", "emotional", "sad", "tears", "weep", "heartbreak", "moving", "devastating", "bittersweet", "grief", "loss"],
+    "discover_params": {
+      "with_genres": "18",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.8,
+      "vote_count.gte": 500
+    },
     "movies": [
       { "tmdb_id": 10193, "title": "Toy Story 3", "year": 2010, "vibe_reason": "Growing up hurts, and this film captures that better than any other" },
       { "tmdb_id": 324786, "title": "Hacksaw Ridge", "year": 2016, "vibe_reason": "Gut-wrenching and beautiful — sacrifice has never felt so real" },
@@ -71,7 +106,14 @@
   },
   "mind-bending": {
     "name": "Mind-Bending",
+    "tagline": "Your brain won't know what hit it",
     "keywords": ["mind-bending", "mind blowing", "mindfuck", "twist", "complex", "philosophical", "trippy", "surreal", "psychological", "weird science", "reality", "cerebral"],
+    "discover_params": {
+      "with_genres": "878|9648|53",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.5,
+      "vote_count.gte": 300
+    },
     "movies": [
       { "tmdb_id": 27205, "title": "Inception", "year": 2010, "vibe_reason": "Dreams within dreams — your brain won't know what hit it" },
       { "tmdb_id": 680, "title": "Pulp Fiction", "year": 1994, "vibe_reason": "Non-linear storytelling that rewards every rewatch" },
@@ -85,7 +127,14 @@
   },
   "drained-comfort": {
     "name": "Drained but Want Comfort",
+    "tagline": "No effort required, all warmth delivered",
     "keywords": ["drained", "exhausted", "tired", "comfort", "easy watch", "low energy", "gentle", "soothing", "familiar", "low stakes", "simple", "relaxing"],
+    "discover_params": {
+      "with_genres": "16|35|10751",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.5,
+      "vote_count.gte": 300
+    },
     "movies": [
       { "tmdb_id": 12, "title": "Finding Nemo", "year": 2003, "vibe_reason": "Gentle adventure and warm heart — zero effort to love" },
       { "tmdb_id": 585, "title": "Monsters, Inc.", "year": 2001, "vibe_reason": "Easy, funny, and genuinely sweet — perfect for an empty-tank evening" },
@@ -99,7 +148,14 @@
   },
   "lazy-sunday": {
     "name": "Lazy Sunday",
+    "tagline": "Perfect for doing absolutely nothing",
     "keywords": ["lazy", "sunday", "weekend", "chill", "mellow", "slow", "do nothing", "afternoon", "lounge", "unwind", "slow burn", "hang"],
+    "discover_params": {
+      "with_genres": "35|10749|18",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.5,
+      "vote_count.gte": 300
+    },
     "movies": [
       { "tmdb_id": 862, "title": "Toy Story", "year": 1995, "vibe_reason": "Sunday classic energy — comforting, familiar, never gets old" },
       { "tmdb_id": 120467, "title": "The Grand Budapest Hotel", "year": 2014, "vibe_reason": "Delightful and unhurried — a perfect afternoon film" },
@@ -113,7 +169,14 @@
   },
   "dark-intense": {
     "name": "Dark & Intense",
+    "tagline": "Heavy, gripping, and impossible to look away",
     "keywords": ["dark", "intense", "gritty", "heavy", "disturbing", "dark theme", "brutal", "noir", "serious", "bleak", "tense", "unsettling"],
+    "discover_params": {
+      "with_genres": "80|53|18",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.8,
+      "vote_count.gte": 500
+    },
     "movies": [
       { "tmdb_id": 155, "title": "The Dark Knight", "year": 2008, "vibe_reason": "Brilliant, brooding, and relentlessly intense" },
       { "tmdb_id": 769, "title": "Goodfellas", "year": 1990, "vibe_reason": "Kinetic, dark, and alive — crime at its most electric" },
@@ -127,7 +190,14 @@
   },
   "feel-like-a-kid": {
     "name": "Feel Like a Kid Again",
+    "tagline": "Imagination and wonder — all the way down",
     "keywords": ["kid", "children", "childhood", "young", "playful", "animated", "cartoon", "imagination", "wonder", "magical", "fairy tale", "innocent"],
+    "discover_params": {
+      "with_genres": "16|10751|14",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.5,
+      "vote_count.gte": 300
+    },
     "movies": [
       { "tmdb_id": 8587, "title": "The Lion King", "year": 1994, "vibe_reason": "Circle of life — it hits different when you watch it grown up" },
       { "tmdb_id": 812, "title": "Aladdin", "year": 1992, "vibe_reason": "Pure Disney magic that never fades" },
@@ -141,7 +211,14 @@
   },
   "heartwarming": {
     "name": "Heartwarming",
+    "tagline": "The kind of film that fills you right up",
     "keywords": ["heartwarming", "warm", "touching", "sweet", "kind", "wholesome", "uplifting", "feel-good", "sentimental", "love", "caring", "gentle"],
+    "discover_params": {
+      "with_genres": "10751|18|10749",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.8,
+      "vote_count.gte": 300
+    },
     "movies": [
       { "tmdb_id": 77338, "title": "The Intouchables", "year": 2011, "vibe_reason": "An unlikely friendship that will fill your heart right up" },
       { "tmdb_id": 567609, "title": "A Beautiful Day in the Neighborhood", "year": 2019, "vibe_reason": "Fred Rogers reminds you that kindness is never weakness" },
@@ -155,7 +232,14 @@
   },
   "late-night-thriller": {
     "name": "Late Night Thriller",
+    "tagline": "Lights off, volume up — you're in for it",
     "keywords": ["thriller", "late night", "suspense", "tension", "edge of seat", "gripping", "can't look away", "nerve-wracking", "mystery", "whodunit", "paranoid", "twisty"],
+    "discover_params": {
+      "with_genres": "53|27|9648",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.5,
+      "vote_count.gte": 300
+    },
     "movies": [
       { "tmdb_id": 274, "title": "The Silence of the Lambs", "year": 1991, "vibe_reason": "A masterclass in suspense — you'll feel it in your bones" },
       { "tmdb_id": 11324, "title": "Shutter Island", "year": 2010, "vibe_reason": "A paranoid spiral with a twist you won't see coming" },
@@ -169,7 +253,14 @@
   },
   "romantic-not-cheesy": {
     "name": "Romantic but Not Cheesy",
+    "tagline": "Real chemistry, real feeling — no fluff",
     "keywords": ["romantic", "romance", "love story", "love", "date night", "couple", "not cheesy", "beautiful", "tender", "chemistry", "attraction", "longing"],
+    "discover_params": {
+      "with_genres": "10749|18",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.5,
+      "vote_count.gte": 300
+    },
     "movies": [
       { "tmdb_id": 5765, "title": "Pride & Prejudice", "year": 2005, "vibe_reason": "Slow-burn perfection — Darcy and Lizzie is the gold standard" },
       { "tmdb_id": 38, "title": "Eternal Sunshine of the Spotless Mind", "year": 2004, "vibe_reason": "Love that's messy and real and worth every complicated feeling" },
@@ -183,7 +274,14 @@
   },
   "inspirational": {
     "name": "Inspirational",
+    "tagline": "Proof that one person can change everything",
     "keywords": ["inspirational", "inspire", "motivated", "motivation", "empowering", "uplifting", "achiever", "overcome", "triumph", "powerful", "goal", "success"],
+    "discover_params": {
+      "with_genres": "18|36",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.8,
+      "vote_count.gte": 500
+    },
     "movies": [
       { "tmdb_id": 324786, "title": "Hacksaw Ridge", "year": 2016, "vibe_reason": "Unshakeable conviction — proof that one person can make a difference" },
       { "tmdb_id": 278, "title": "The Shawshank Redemption", "year": 1994, "vibe_reason": "Hope as an act of defiance — the most inspiring prison story ever told" },
@@ -197,7 +295,14 @@
   },
   "weird-quirky": {
     "name": "Weird & Quirky",
+    "tagline": "Strange, original, and completely its own thing",
     "keywords": ["weird", "quirky", "strange", "unusual", "offbeat", "surreal", "absurd", "indie", "unconventional", "odd", "bizarre", "cult"],
+    "discover_params": {
+      "with_genres": "35|14|878",
+      "sort_by": "vote_average.desc",
+      "vote_average.gte": 7.5,
+      "vote_count.gte": 200
+    },
     "movies": [
       { "tmdb_id": 120467, "title": "The Grand Budapest Hotel", "year": 2014, "vibe_reason": "Wes Anderson's perfectly symmetrical weirdness at its best" },
       { "tmdb_id": 596060, "title": "The Lighthouse", "year": 2019, "vibe_reason": "Two men, one lighthouse, total psychological unraveling" },
